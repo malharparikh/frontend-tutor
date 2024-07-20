@@ -49,7 +49,7 @@ function TextAnalyzer() {
     }
     setIsLoading(true);
     try {
-      const response = await axios.post('http://192.168.1.192:5000/analyze', { 
+      const response = await axios.post('http://backend-next-level-tutor.onrender.com/analyze', { 
         prompt: prompt,
         essay: essayText 
       });
