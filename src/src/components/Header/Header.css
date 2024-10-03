@@ -1,0 +1,39 @@
+/* Header.css */
+.header {
+    background-color: #2cb6e0;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+  }
+  
+  .back-arrow-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .back-arrow {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .logo-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 60px;
+    cursor: pointer;
+  }
+  
+  .spacer {
+    flex: 1;
+  }
